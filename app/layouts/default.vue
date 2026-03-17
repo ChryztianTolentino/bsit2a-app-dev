@@ -10,7 +10,7 @@
         <template v-slot:prepend>
           <v-list-item
             lines="two"
-            prepend-avatar="https://randomuser.me/api/portraits/women/81.jpg"
+            prepend-avatar="C:\Users\SNCBT\Pictures\Screenshots\hehe.png"
             subtitle="Logged in"
             title="Gerard Balasubas"
           ></v-list-item>
@@ -19,9 +19,9 @@
         <v-divider></v-divider>
 
         <v-list density="compact" nav>
-          <v-list-item prepend-icon="mdi-home-city" title="Home" value="home"></v-list-item>
-          <v-list-item prepend-icon="mdi-account" title="My Account" value="account"></v-list-item>
-          <v-list-item prepend-icon="mdi-account-group-outline" title="Users" value="users"></v-list-item>
+          <v-list-item prepend-icon="mdi-home-city" title="Users" value="index" to="/"></v-list-item>
+          <v-list-item prepend-icon="mdi-account" title="Dashboard" value="dashboard" to="/dashboard"></v-list-item>
+          <v-list-item prepend-icon="mdi-account-group-outline" title="Prelim" value="prelim" to="/prelim"></v-list-item>
         </v-list>
       </v-navigation-drawer>
 

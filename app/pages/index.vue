@@ -50,7 +50,15 @@ const password = ref("")
 
 // login
 function login() {
-  alert('Galing!!! Nahulaan mo!!!');
+    if (username.value === defaultUsername.value && password.value === defaultPassword.value) {
+        // navigate to dachboard page
+        navigateTo("/dashboard")
+    }
+        else{
+            // show alert message
+            alert("Mali ang Password mo HAHAHA")
+    }
+  
 }
 
 

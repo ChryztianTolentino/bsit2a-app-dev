@@ -10,7 +10,6 @@
         <template v-slot:prepend>
           <v-list-item
             lines="two"
-            prepend-avatar="C:\Users\SNCBT\Pictures\Screenshots\hehe.png"
             subtitle="Logged in"
             title="Gerard Balasubas"
           ></v-list-item>
@@ -20,6 +19,7 @@
 
         <v-list density="compact" nav>
           <v-list-item prepend-icon="mdi-account" title="Dashboard" value="dashboard" to="/dashboard"></v-list-item>
+          <v-list-item prepend-icon="mdi-home-city" title="Calculate" value="index" to="/calculate"></v-list-item>
           <v-list-item prepend-icon="mdi-account-group-outline" title="Prelim" value="prelim" to="/prelim"></v-list-item>
           <v-list-item prepend-icon="mdi-account-group-outline" title="Calculate" value="calculate" to="/calculate"></v-list-item>
           <v-list-item prepend-icon="mdi-account-group-outline" title="Midterm Exam" value="midtermexam" to="/midtermexam"></v-list-item>

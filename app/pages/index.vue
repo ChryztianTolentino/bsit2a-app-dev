@@ -50,6 +50,7 @@ const password = ref("")
 
 // login
 function login() {
+<<<<<<< HEAD
   if (username.value === defaultUsername.value && password.value === defaultPassword.value) {
     alert("Login successful!");
     // Redirect to the dashboard or another page
@@ -57,6 +58,17 @@ function login() {
   } else {
     alert("Invalid username or password. Please try again.");
   }
+=======
+    if (username.value === defaultUsername.value && password.value === defaultPassword.value) {
+        // navigate to dachboard page
+        navigateTo("/dashboard")
+    }
+        else{
+            // show alert message
+            alert("Mali ang Password mo HAHAHA")
+    }
+  
+>>>>>>> b609793473987f2acb68f98c6fb52fc152b6eddf
 }
 
 

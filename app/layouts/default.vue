@@ -19,9 +19,10 @@
         <v-divider></v-divider>
 
         <v-list density="compact" nav>
-          <v-list-item prepend-icon="mdi-home-city" title="Users" value="index" to="/"></v-list-item>
           <v-list-item prepend-icon="mdi-account" title="Dashboard" value="dashboard" to="/dashboard"></v-list-item>
           <v-list-item prepend-icon="mdi-account-group-outline" title="Prelim" value="prelim" to="/prelim"></v-list-item>
+          <v-list-item prepend-icon="mdi-account-group-outline" title="Calculate" value="calculate" to="/calculate"></v-list-item>
+          <v-list-item prepend-icon="mdi-account-group-outline" title="Midterm Exam" value="midtermexam" to="/midtermexam"></v-list-item>
         </v-list>
       </v-navigation-drawer>
 

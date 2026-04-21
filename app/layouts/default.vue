@@ -19,10 +19,10 @@
 
         <v-list density="compact" nav>
           <v-list-item prepend-icon="mdi-account" title="Dashboard" value="dashboard" to="/dashboard"></v-list-item>
-          <v-list-item prepend-icon="mdi-home-city" title="Calculate" value="index" to="/calculate"></v-list-item>
           <v-list-item prepend-icon="mdi-account-group-outline" title="Prelim" value="prelim" to="/prelim"></v-list-item>
-          <v-list-item prepend-icon="mdi-account-group-outline" title="Calculate" value="calculate" to="/calculate"></v-list-item>
-          <v-list-item prepend-icon="mdi-account-group-outline" title="Midterm Exam" value="midtermexam" to="/midtermexam"></v-list-item>
+          <v-list-item prepend-icon="mdi mdi-calculator" title="Calculate" value="calculate" to="/calculate"></v-list-item>
+          <v-list-item prepend-icon="mdi mdi-pencil" title="Midterm Exam" value="midtermexam" to="/midtermexam"></v-list-item>
+          <v-list-item prepend-icon="mdi mdi-list-box" title="ToDo List" value="ToDo" to="ToDo"></v-list-item>
         </v-list>
       </v-navigation-drawer>
 
